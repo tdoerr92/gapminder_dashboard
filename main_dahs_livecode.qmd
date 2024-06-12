@@ -6,6 +6,7 @@ theme: lux
 
 ```{r include=FALSE}
 if(!require(pacman)) install.packages("pacman")
+
 pacman::p_load(tidyverse, 
                gapminder,
                plotly,
